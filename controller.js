@@ -52,7 +52,7 @@ for (var dev in ifaces) {
     });
 }
 
-logger.info('ioBroker.nodejs version ' + version + ' ' + ioPackage.common.name + ' starting');
+logger.info('ioBroker.js-controller version ' + version + ' starting');
 logger.info('Copyright (c) 2014 hobbyquaker, bluefox');
 logger.info('controller hostname: ' + hostname);
 logger.info('controller ip addresses: ' + ipArr.join(' '));
